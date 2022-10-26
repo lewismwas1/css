@@ -1,0 +1,11 @@
+div{
+    width: 100px;
+    height: 100px;
+    background: aqua;
+    position: relative;
+    animation: mymove 20s infinite;
+}
+@keyframes mymove {
+        from{left:0px;}
+        to{left:500px;}
+    }
